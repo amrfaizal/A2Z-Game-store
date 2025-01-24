@@ -185,6 +185,17 @@ white-space: nowrap; /* Prevent text wrapping */
   .nav > .nav-links {
     display: none;
   }
+      .banner h1 {
+        font-size: 1.5rem;
+    }
+
+    .banner p {
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+     section {
+        padding: 15px;
+    }
 }
 @media (max-width: 576px) {
   header h1 {
@@ -208,6 +219,9 @@ white-space: nowrap; /* Prevent text wrapping */
   h1 {
       font-size: 1.5rem;
   }
+     section {
+        padding: 10px;
+    }
 
   .website-logo {
       width: 40px;
@@ -277,7 +291,7 @@ footer p {
 .banner img {
   max-width: 100%;
   height: auto;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 h1 {
