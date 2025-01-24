@@ -279,20 +279,44 @@ footer p {
 }
 
 /* Content from home page */
+/* Banner Styling */
 .banner {
-  background-color: #100e0e9a;
-  color: white;
-  text-align: center;
-  padding: 30px 20px;
-  font-size: 1rem;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #100e0e9a; /* Slight transparent effect */
 }
 
 .banner img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
+    max-width: 100%; /* Ensure image scales within the container */
+    height: auto;
+    border-radius: 10px; /* Add smooth corners */
+    margin: 20px 0;
 }
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .banner h1 {
+        font-size: 1.8rem; /* Adjust text size for smaller screens */
+    }
+
+    .banner p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .banner h1 {
+        font-size: 1.5rem;
+    }
+
+    .banner p {
+        font-size: 0.9rem;
+    }
+}
+
 
 h1 {
   font-size:xx-large ;
@@ -329,6 +353,26 @@ li {
   margin-bottom: 10px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+/* General Section Styling */
+section {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px; /* Restrict maximum width for better readability */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    section {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    section {
+        padding: 10px;
+    }
+}
+
 
 .featured-games {
   display: flex;
