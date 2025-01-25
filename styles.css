@@ -1,5 +1,5 @@
 
-/* Content from styles.css */
+/* styles.css */
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   margin: 0;
@@ -44,7 +44,7 @@ gap: 10px;
 }
 
 .website-logo {
-width: 60px; /* Adjust size as needed */
+width: 60px; 
 height: auto;
 margin-right: 10px;
 border-radius: 50px;
@@ -52,15 +52,15 @@ border-radius: 50px;
 
 .nav {
 display: flex;
-justify-content: flex-end; /* Align links to the right */
+justify-content: flex-end; 
 align-items: center;
 flex: 1;
 }
 
 .nav-links {
-margin-left: auto; /* Push the links to the right */
+margin-left: auto;
 display: flex;
-gap: 15px; /* Adjust spacing between links */
+gap: 15px; 
 font-size: 16px;
 }
 
@@ -84,7 +84,7 @@ font-size: 16px;
 .nav-links {
   margin-left: auto;
   display: flex;
-  gap: 10px; /* Adjusted gap */
+  gap: 10px; 
   font-size: 16px;
 }
 
@@ -97,9 +97,9 @@ font-size: 16px;
 text-decoration: none;
 color: #efefef;
 font-weight: 500;
-padding: 10px 20px; /* Adjusted padding */
+padding: 10px 20px; 
 transition: all 0.3s ease-in-out;
-white-space: nowrap; /* Prevent text wrapping */
+white-space: nowrap; 
 }
 
 .nav > .nav-links > a:hover {
@@ -185,17 +185,6 @@ white-space: nowrap; /* Prevent text wrapping */
   .nav > .nav-links {
     display: none;
   }
-      .banner h1 {
-        font-size: 1.5rem;
-    }
-
-    .banner p {
-        font-size: 1rem;
-        margin-top: 10px;
-    }
-     section {
-        padding: 15px;
-    }
 }
 @media (max-width: 576px) {
   header h1 {
@@ -219,9 +208,6 @@ white-space: nowrap; /* Prevent text wrapping */
   h1 {
       font-size: 1.5rem;
   }
-     section {
-        padding: 10px;
-    }
 
   .website-logo {
       width: 40px;
@@ -278,45 +264,21 @@ footer p {
   }
 }
 
-/* Content from home page */
-/* Banner Styling */
+/*  home page */
 .banner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 20px;
-    background-color: #100e0e9a; /* Slight transparent effect */
+  background-color: #100e0e9a;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 1rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .banner img {
-    max-width: 100%; /* Ensure image scales within the container */
-    height: auto;
-    border-radius: 10px; /* Add smooth corners */
-    margin: 20px 0;
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
 }
-
-/* Responsive Styling */
-@media (max-width: 768px) {
-    .banner h1 {
-        font-size: 1.8rem; /* Adjust text size for smaller screens */
-    }
-
-    .banner p {
-        font-size: 1rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .banner h1 {
-        font-size: 1.5rem;
-    }
-
-    .banner p {
-        font-size: 0.9rem;
-    }
-}
-
 
 h1 {
   font-size:xx-large ;
@@ -353,26 +315,6 @@ li {
   margin-bottom: 10px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-/* General Section Styling */
-section {
-    padding: 20px;
-    margin: 0 auto;
-    max-width: 1200px; /* Restrict maximum width for better readability */
-}
-
-/* Responsive Adjustments */
-@media (max-width: 768px) {
-    section {
-        padding: 15px;
-    }
-}
-
-@media (max-width: 480px) {
-    section {
-        padding: 10px;
-    }
-}
-
 
 .featured-games {
   display: flex;
@@ -411,7 +353,7 @@ padding: 5px 10px;
 font-size: 1rem;
 border-radius: 5px;
 display: inline-block;
-margin-top: auto; /* Push the name to the bottom */
+margin-top: auto; 
 }
 
 .game-name {
@@ -451,7 +393,7 @@ border-radius: 10px;
   font-size: 1rem;
   border-radius: 5px;
   display: inline-block;
-  margin-top: auto; /* Push the name to the bottom */
+  margin-top: auto; 
 }
 
 
@@ -459,9 +401,14 @@ border-radius: 10px;
 .product-item:hover {
   transform: translateY(-5px);
 }
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+}
+}
 
-
-/* Content from aboutstyles.css */
+/* aboutstyles.css */
 
 main {
     padding: 20px;
@@ -596,7 +543,7 @@ main {
 }
 
 
-/* Content from consolesstyles.css */
+/* consolesstyles.css */
 .consoles {
     padding: 20px;
     text-align: center;
@@ -641,7 +588,7 @@ h2 {
     color: #fff;
     text-align: center;
     padding: 10px 0;
-    display: none;  /* Initially hidden */
+    display: none;  
 }
 
 p{
@@ -660,7 +607,7 @@ p{
     background-color: rgba(0, 0, 0, 0.289);
 }
 
-/* Show info when hovering over the item */
+
 .item:hover .info {
     display: block;
 }
@@ -673,9 +620,9 @@ p{
 
 
 
-/* Content from gamesstyles.css */
+/* gamesstyles.css */
 
-/* Games Container */
+
 .games-container {
   padding: 20px;
   max-width: 1200px;
@@ -691,7 +638,7 @@ p{
   font-size: 20px;
 }
 
-/* Responsive Grid Layout */
+
 div.games-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Auto-fit adjusts columns */
@@ -700,21 +647,21 @@ div.games-grid {
   
 }
 
-/* Game Items */
+
 .game-item {
   position: relative;
-  width: 100%; /* Ensure items fit within the grid */
-  max-width: 300px; /* Optional: Restrict maximum size */
-  aspect-ratio: 16/9; /* Maintain consistent 16:9 aspect ratio */
+  width: 100%; 
+  max-width: 300px; 
+  aspect-ratio: 16/9; 
   overflow: hidden;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .game-item img {
-  width: 100%; /* Fit image to container width */
-  height: 100%; /* Ensure it fills the container */
-  object-fit: cover; /* Crop image while maintaining aspect ratio */
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
   transition: transform 0.3s ease;
   
 
@@ -724,10 +671,10 @@ div.games-grid {
      transform: scale(1.05);
 }
 
-/* Description Hover Effect */
+
 .description {
   position: absolute;
-  top: 100%; /* Initially hidden below the item */
+  top: 100%; 
   left: 0;
   width: 100%;
   height: 100%;
@@ -743,7 +690,7 @@ div.games-grid {
 }
 
 .game-item:hover .description {
-  top: 0; /* Slide in the description */
+  top: 0; 
 }
 
 .description h4 {
@@ -757,22 +704,22 @@ div.games-grid {
   text-align: center;
 }
 
-/* Responsive Adjustments */
+
 @media (max-width: 768px) {
   .games-grid {
-      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Smaller columns for mobile */
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
       gap: 15px;
   }
 }
 
 @media (max-width: 576px) {
   .game-item {
-      max-width: 90%; /* Make the items fit smaller screens */
+      max-width: 90%; 
   }
 }
 
 
-/* Content from peripheralsstyles.css */
+/* peripheralsstyles.css */
 
 .product-grid {
     display: grid;
@@ -801,7 +748,7 @@ div.games-grid {
     font-size: large;
   }
   
-  /* Image Container */
+  
   .image-container {
     position: relative;
     overflow: hidden;
@@ -838,7 +785,7 @@ div.games-grid {
     opacity: 1;
   }
   
-/* Content from Queries and FAQs.css */
+/* Queries and FAQs.css */
 
   main {
     padding: 20px;
@@ -930,7 +877,7 @@ div.games-grid {
   transform: scale(0.98);
 }
  
-/* Content from upcomingstyles.css */
+/* upcomingstyles.css */
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
@@ -982,7 +929,7 @@ header h1 {
 }
 
 .games-section {
-    margin: 20px;
+    margin: 30px;
 }
 
 .games-section h3 {
@@ -1078,10 +1025,6 @@ footer p {
         justify-content: center;
     }
     
-    .products, .featured-games {
-        gap: 10px;
-    }
-
     footer {
         font-size: 0.8rem;
     }
