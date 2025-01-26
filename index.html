@@ -4,50 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A2Z Game Store - Home</title>
+    <!-- Linking external stylesheet -->
     <link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-<link rel="manifest" href="/manifest.json">
-<link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
-<link rel="icon" type="image/x-icon" href="icons/favicon.ico">
-<link rel="apple-touch-icon" sizes="192x192" href="icons/android-chrome-192x192.png">
-<link rel="apple-touch-icon" sizes="512x512" href="icons/android-chrome-512x512.png">
-
-
+    <!-- social media icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="/manifest.json">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="icons/favicon.ico">
+    <link rel="apple-touch-icon" sizes="192x192" href="icons/android-chrome-192x192.png">
+    <link rel="apple-touch-icon" sizes="512x512" href="icons/android-chrome-512x512.png">
 </head>
 <body style="background-image: url(img/pxfuel.jpg);">
+    <!-- Website Header Section -->
     <header>
         <div class="container">
+            <!-- Logo and Website Title -->
             <div class="logo-container">
                 <img src="img/logo.png" alt="Website Logo" class="website-logo" />
                 <h1>A2Z GAME STORE</h1>
             </div>
-        <div class="nav">
-            <input type="checkbox" id="nav-check">
-            <div class="nav-header">
-            </div>
-            <div class="nav-btn">
-                <label for="nav-check">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </label>
-            </div>
-            <div class="nav-links">
-                <a href="index.html">Home</a>
-                <a href="about us.html">About Us</a>
-                <a href="upcoming games.html">Upcoming</a>
-                <a href="consoles.html">Consoles</a>
-                <a href="peripherals.html">Gaming Peripherals</a>
-                <a href="games.html">Games</a>
-                <a href="Queries and FAQs.html">Queries and FAQs</a>
+            <!-- Navigation Menu -->
+            <div class="nav">
+                <input type="checkbox" id="nav-check">
+                <div class="nav-header"></div>
+                <div class="nav-btn">
+                    <!-- Hamburger menu icon for mobile view -->
+                    <label for="nav-check">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                </div>
+                <!-- Navigation links -->
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="about us.html">About Us</a>
+                    <a href="Upcoming games.html">Upcoming</a>
+                    <a href="Consoles.html">Consoles</a>
+                    <a href="peripherals.html">Gaming Peripherals</a>
+                    <a href="games.html">Games</a>
+                    <a href="Queries and FAQs.html">Queries and FAQs</a>
+                </div>
             </div>
         </div>
     </header>
 
+    <!-- Banner Section -->
     <section class="banner">
+        <!-- Welcome Section -->
         <section>
             <h1>Welcome to A2Z Game Store</h1>
-            <p>Your one-stop shop for all gaming things, from the latest consoles to upcoming titles.</p>
+            <p>Welcome to A2Z Game Store, your ultimate destination for discovering upcoming releases, <br> top-rated games, and exclusive deals—all in one place! Dive into a world of gaming tailored for every player.</p>
             <img src="games img/mainG.jpg" alt="Gaming Setup" class="responsive-image">
         </section>
 
@@ -75,10 +83,13 @@
         </section>
     </section>
 
-
+    <!-- Main Content Section -->
     <main class="content">
+
         <h2 class="section-title">Featured Games</h2>
+        <p>Explore our handpicked selection of featured games, showcasing the best titles for every gamer.</p>
         <div class="featured-games">
+
             <div class="game">
                 <img src="home img/forza horizon 5.jpg" alt="Forza Horizon 5">
                 <h3 class="game-name">Forza Horizon 5</h3>
@@ -89,7 +100,7 @@
             </div>
             <div class="game">
                 <img src="home img/gtav.jpg" alt="GTA V">
-                <h3 class="game-name">Grand theft auto-V</h3>
+                <h3 class="game-name">Grand Theft Auto-V</h3>
             </div>
             <div class="game">
                 <img src="home img/hogwartslegacy.jpg" alt="Hogwarts Legacy">
@@ -97,8 +108,11 @@
             </div>
         </div>
 
+
         <h2 class="section-title">Our Products</h2>
+        <p>Discover top-quality gaming products, from the latest titles to exclusive accessories, crafted for every gamer’s needs.</p>
         <div class="products">
+
             <div class="product-item">
                 <img src="home img/DualSense-PS5-Controller-1.jpg" alt="Gaming Controller">
                 <h3>Controller <br>LKR14000</h3>
@@ -122,17 +136,27 @@
         </div>
     </main>
 
+    <!-- Footer Section -->
     <footer>
         <p>2025 A2Z Game Store. All Rights Reserved.</p>
+        <!-- Social Media Icons -->
         <div class="social-icons">
-            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
-            <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-        </div>
+            <a href="https://www.facebook.com" target="_blank" aria-label="Visit our Facebook page">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.twitter.com" target="_blank" aria-label="Visit our Twitter page">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com" target="_blank" aria-label="Visit our Instagram profile">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.youtube.com" target="_blank" aria-label="Visit our YouTube channel">
+                <i class="fab fa-youtube"></i>
+            </a>
+            <a href="https://www.linkedin.com" target="_blank" aria-label="Visit our LinkedIn profile">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </div>        
     </footer>
-
 </body>
 </html>
-
